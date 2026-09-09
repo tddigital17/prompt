@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt build",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxi prepare"
+    "dev": "node node_modules/nuxt/bin/nuxt.mjs dev",
+    "build": "node node_modules/nuxt/bin/nuxt.mjs build",
+    "generate": "node node_modules/nuxt/bin/nuxt.mjs generate",
+    "preview": "node node_modules/nuxt/bin/nuxt.mjs preview",
+    "postinstall": "node node_modules/nuxt/bin/nuxt.mjs prepare"
   },
   "dependencies": {
     "@nuxtjs/supabase": "^1.4.0",
